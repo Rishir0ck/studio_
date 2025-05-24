@@ -6,6 +6,7 @@ import { Utensils, Coffee, Cake, Salad, Soup, Fish, Beef, GlassWater } from 'luc
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from '@/components/ui/input';
 import { useState, useMemo } from 'react';
+import React from 'react';
 
 const mockMenuData: MenuCategory[] = [
   {
